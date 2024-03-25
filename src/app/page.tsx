@@ -14,13 +14,13 @@ import StackThatIUse from '../components/stack'
 import Introduction from '../components/introduction'
 import ContactForm from '../components/contact-form'
 
-export interface Props {
+interface Props {
     discord_status: Data
 }
 
-export const revalidate = 10
+const revalidate = 10
 
-export const getData = async () => {
+const getData = async () => {
     const discord_status = await getDiscordStatus(discordId)
 
     return {

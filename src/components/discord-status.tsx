@@ -47,7 +47,7 @@ export default function DiscordStatus({ presence }: DiscordStatusProps) {
                     <span className="flex flex-1 flex-col justify-between p-6 text-white">
                         <span className="flex justify-between space-x-12 items-center">
                             <SiDiscord className="text-2xl" />
-                            <span className="text-sm opacity-80 transition duration-500 group-hover:opacity-100">
+                            <span className="text-sm opacity-80 transition duration-500 group-hover:opacity-100 mt-6 rotate-90 md:rotate-0 md:mt-0">
                                 {presence.discord_user.username}
                             </span>
                         </span>

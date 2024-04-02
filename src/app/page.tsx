@@ -33,7 +33,7 @@ export default async function Home() {
     return (
         <div className="space-y-6">
             <main className="mx-auto grid max-w-3xl grid-cols-6 gap-6 px-6 pt-16">
-                <div className="col-span-4 flex h-52 flex-col justify-between overflow-hidden rounded-2xl bg-green-200 px-8 py-8 dark:border-pink-500 dark:bg-green-500/20 dark:shadow-none dark:backdrop-blur-2xl md:col-span-4">
+                <div className="col-span-6 flex h-52 flex-col justify-between overflow-hidden rounded-2xl bg-green-200 px-8 py-8 dark:border-pink-500 dark:bg-green-500/20 dark:shadow-none dark:backdrop-blur-2xl md:col-span-4">
                     <div className="flex">
                         <Link
                             className="flex items-center justify-center space-x-1.5 rounded-full bg-pink-300 px-2 py-0.5 font-title dark:bg-pink-500/25"
